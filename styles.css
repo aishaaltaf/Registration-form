@@ -1,0 +1,90 @@
+.container{
+    border: 25px solid purple;
+    margin-left: 250px;
+    margin-top: 50px;
+   width: 67%;
+   height: 740px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.containertxt,
+.containertxt2{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.containertxt h2,
+.containertxt2 h2{
+    color: gray;
+}
+
+
+.c1{
+   display: flex;
+   list-style: none;
+   margin-top: 20px;
+}
+
+.c1 li,
+.c2 li,
+.c3 li,
+.c4 li{
+
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+
+
+.c1 input[type="text"],
+.c1 input[type="email"],
+.c2 input[type="text"],
+.c2 input[type="tel"],
+.c3 input[type="text"],
+.c4 input[type="text"] {
+    width: 200px;
+    height: 40px;
+    padding: 8px;
+  font-size: 15px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.c2,
+.c3,
+.c4{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+}
+
+#printFormData {
+    margin-left: 250px;
+    margin-top: 20px;
+    width: 67%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#printFormData ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#printFormData ul li {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
